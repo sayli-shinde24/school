@@ -1,3 +1,10 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex: 50%;
+  }
+
 #menu-tag{
     color:blue;
     text-decoration: none;
@@ -48,7 +55,7 @@ p{
     top:80%;
     left:50%;
     display: flex;
-    transform: translate(-30%, -0%);
+    transform: translate(-40%, -0%);
     position:relative;
     
 }

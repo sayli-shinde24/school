@@ -4,95 +4,104 @@
     <meta charset="utf-8">
     <title>Addmissions | TPS</title>
       <link rel="stylesheet" href="awards.css" />
+      <style>
+        @media (max-width: 800px) {
+        .flex-container {
+        flex-direction: column;
+        }
+      }
+      </style>
   </head>
   <body>
-    <header class="header-container" > 
-        <nav class="main1">
-            <ul >    
-                <li ><a id="menu-tag" href="index.html">Home</a></li>
-                <li><a id="menu-tag" href="about.html">About us</a></li>
-                <li><a id="menu-tag" href="gallery.html">Gallery</a></li>
-                <li><a id="menu-tag" href="menu.html">Academics</a></li>
-                <li><a id="menu-tag" href="awards.html">Admission</a></li> 
-                <li><a id="menu-tag" href="contact.html">Contact Us</a></li>
-                
-            </ul>
-        </nav>
-      </header>
-      
-      <section>
-        <div class="titles">
-			<h3>Admissions Details</h3>
-		</div>
-         <div class="sub-head">
-             <h3>ADMISSIONS FOR THE ACADEMIC YEAR 2022-23</h3>
-          </div>
-      </section>
-      <div>     
-          <h4 style="font-size:30px">Fill the form given below</h4>
-      </div>
-      
-      <section class="form-1">
-      
-       <form action=""> 
-          <div class="container"> 
-          <label for="studentname">Student Name: </label>
-          <input id="studentname" type="text" placeholder="Full Name">
-          <br/>
-          <label for="father'sname">Father's Name: </label>
-          <input id="father'sname" type="text" placeholder=" Father's Full Name">
-          <br/>
-          <label for="mother'sname">Mother's Name: </label>
-          <input id="mother'sname" type="text" placeholder=" Mother's Full Name">
-          <br/>
-          
-          <p>Gender:</p>
-          <input type="radio" name="gender">
-          <label>Male</label>
-          <input type="radio" name="gender">
-          <label>Female</label>
-          <input type="radio" name="gender">
-          <label>Other</label>
-          <br/>
-          <label>Date of Birth:</label>
-          <input type=date>
-          <br/>
-              <label>Select Standard:<label>
-        <select >
-            <option value="">--Select Class--</option>
-            <option value="1">I</option>
-            <option value="2">II</option>
-            <option value="3">III</option>
-            <option value="4">IV
-                <option>
-            <option value="5">V
-            </option>
-            <option value="6">VI
-            </option>
-            <option value="7">VII
-            </option>
-            <option value="8">VIII
-            </option>
-            <option value="9">IX
-            </option>
-            <option value="10">X
-            </option>
-        </select><br/>
-          <p>Electives:</p>
-          <input id="sanskrit" type="checkbox">
-          <label for="sanskrit">Sanskrit</label>
-          <input id="german" type="checkbox">
-          <label for="german">German</label>
-          <input id="french" type="checkbox">
-          <label for="french">French</label>
-          <br/>
-          <div id="my-button">
-              <button >Submit</button>
-              </div>
-           </div>
-      
-      </form>
-   
-      </section>
+    <div class="flex-container"> 
+        <header class="header-container" > 
+            <nav class="main1">
+                <ul >    
+                    <li ><a id="menu-tag" href="index.html">Home</a></li>
+                    <li><a id="menu-tag" href="about.html">About us</a></li>
+                    <li><a id="menu-tag" href="gallery.html">Gallery</a></li>
+                    <li><a id="menu-tag" href="academics.html">Academics</a></li>
+                    <li><a id="menu-tag" href="awards.html">Admission</a></li> 
+                    <li><a id="menu-tag" href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <div class="titles">
+                <h3>Admissions Details</h3>
+            </div>
+            <div class="sub-head">
+                <h3>ADMISSIONS FOR THE ACADEMIC YEAR 2022-23</h3>
+            </div>
+        </section>
+        <div>     
+            <h4 style="font-size:30px">Fill the form given below</h4>
+        </div>
+        
+        <section class="form-1">
+        
+        <form action=""> 
+            <div class="container"> 
+            <label for="studentname">Student Name: </label>
+            <input id="studentname" type="text" placeholder="Full Name">
+            <br/>
+            <label for="father'sname">Father's Name: </label>
+            <input id="father'sname" type="text" placeholder=" Father's Full Name">
+            <br/>
+            <label for="mother'sname">Mother's Name: </label>
+            <input id="mother'sname" type="text" placeholder=" Mother's Full Name">
+            <br/>
+            
+            <p>Gender:</p>
+            <input type="radio" name="gender">
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Other</label>
+            <br/>
+            <label>Date of Birth:</label>
+            <input type=date>
+            <br/>
+                <label>Select Standard:<label>
+            <select >
+                <option value="">--Select Class--</option>
+                <option value="1">I</option>
+                <option value="2">II</option>
+                <option value="3">III</option>
+                <option value="4">IV
+                    <option>
+                <option value="5">V
+                </option>
+                <option value="6">VI
+                </option>
+                <option value="7">VII
+                </option>
+                <option value="8">VIII
+                </option>
+                <option value="9">IX
+                </option>
+                <option value="10">X
+                </option>
+            </select><br/>
+            <p>Electives:</p>
+            <input id="sanskrit" type="checkbox">
+            <label for="sanskrit">Sanskrit</label>
+            <input id="german" type="checkbox">
+            <label for="german">German</label>
+            <input id="french" type="checkbox">
+            <label for="french">French</label>
+            <br/>
+            <div id="my-button">
+                <button >Submit</button>
+                </div>
+            </div>
+        
+        </form>
+    
+        </section>
+    </div>
   </body>
 </html>
